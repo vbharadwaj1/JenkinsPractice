@@ -1,9 +1,9 @@
-import calc
+from src import calc
 
 
-test_add():
+def test_add():
 	assert calc.add(5,5) == 10
 	
 
-test_mul():
+def test_mul():
 	assert calc.mul(5,2) == 10
